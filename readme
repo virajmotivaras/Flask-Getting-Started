@@ -11,3 +11,11 @@ python -m venv <folder name>
 5. flask run or python -m flask run
 
 6. Since the app is in Development stage, making any changes in the code will reload the page
+
+7. import the lashcards module then running "flashcards.app.url_map" it on the python console gives routes present
+
+8. By default, everything inside "<Rule '/static/<filename>' (HEAD, OPTIONS, GET) -> static>])" is hosted or displayed
+
+9. static folder is used for images, css and javascript
+
+10. Model-Template-View (MTV) similar to MVC
