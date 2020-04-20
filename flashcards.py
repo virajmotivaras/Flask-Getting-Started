@@ -8,7 +8,7 @@ visitor_count = 0
 @app.route("/")
 def welcome():
     return render_template("welcome.html",
-                           message="This is a message from the view")
+                           cards=db)
 
 @app.route("/card/<int:index>")
 def card_view(index):

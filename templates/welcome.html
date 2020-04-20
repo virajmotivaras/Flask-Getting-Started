@@ -10,7 +10,15 @@
         <em>Getting started with flask</em>
         <a href="www.google.com">Google</a>
     </p>
-    <p>{{message}}</p>
-    <img src="/static/363A1203.JPG">
+    <h2>Flash Cards</h2>
+    <ul>
+        {% for card in cards %}
+            <li>
+                <a href="{{ url_for('card_view', index=loop.index0) }}">
+                    {{ card.question }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
