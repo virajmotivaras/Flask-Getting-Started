@@ -21,3 +21,16 @@ python -m venv <folder name>
 10. Model-Template-View (MTV) similar to MVC
 
 11. templates will hold all the html rendering. It has to be present at the root level
+
+12.
+Model - Data
+Usually from db
+Flask: leaves it to us
+
+Template - Presentation
+Generates HTML
+In Flask: Jinja 2
+
+View - Behavior
+Python function
+Mapped to URL
