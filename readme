@@ -19,3 +19,5 @@ python -m venv <folder name>
 9. static folder is used for images, css and javascript
 
 10. Model-Template-View (MTV) similar to MVC
+
+11. templates will hold all the html rendering. It has to be present at the root level
