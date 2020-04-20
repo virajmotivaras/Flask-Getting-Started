@@ -1,7 +1,9 @@
 # Default ignored files
 /workspace.xml
-venev
+venv
 venv/*
+venv/Lib
+venv/Scripts
 *.iml
 *.xml
 
