@@ -1,0 +1,5 @@
+1. setup the virtual environment
+python -m venv <folder name>
+
+2. Activate it: Run the script for activation
+<folder name>/Scripts/activate.bat
