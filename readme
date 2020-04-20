@@ -34,3 +34,6 @@ In Flask: Jinja 2
 View - Behavior
 Python function
 Mapped to URL
+
+13. Passing parameter in the url
+<int:index>
