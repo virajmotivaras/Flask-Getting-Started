@@ -40,3 +40,9 @@ Mapped to URL
 
 14. request.form is the dictionary containing the parameters in the request
 
+15. There cannot be a redirect inside render_template
+
+16. Jinja template replace the text as Jinja variables incase of evaluating an expression
+
+17. Flask WTF is a library to make sure the clanliness of the data which is saved in the forms
+
