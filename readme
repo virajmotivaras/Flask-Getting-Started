@@ -46,3 +46,7 @@ Mapped to URL
 
 17. Flask WTF is a library to make sure the clanliness of the data which is saved in the forms
 
+18: For deploying the application
+Server: gunicorn [Do not use flask server]
+Use reverse proxy: ninx
+
