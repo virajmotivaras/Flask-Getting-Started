@@ -37,3 +37,6 @@ Mapped to URL
 
 13. Passing parameter in the url
 <int:index>
+
+14. request.form is the dictionary containing the parameters in the request
+
